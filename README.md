@@ -12,6 +12,7 @@ Game <- function() {
 if(interactive()) Game()
 
 #order a game
+
 a <- c("rock", "scissors", "paper")
 student1<- sample(a, 1, replace = T)
 student2<- sample(a, 1, replace = T)
