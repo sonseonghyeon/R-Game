@@ -10,7 +10,8 @@ Game <- function() {
 }
 
 if(interactive()) Game()
-#가위바위보 게임으로 순서정하기 (자동으로 정해진다)
+
+#order a game
 a <- c("rock", "scissors", "paper")
 student1<- sample(a, 1, replace = T)
 student2<- sample(a, 1, replace = T)
