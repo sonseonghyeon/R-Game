@@ -10,8 +10,7 @@ Game <- function() {
 }
 
 if(interactive()) Game()
-
-#order a game
+# order a game
 
 a <- c("rock", "scissors", "paper")
 student1<- sample(a, 1, replace = T)
